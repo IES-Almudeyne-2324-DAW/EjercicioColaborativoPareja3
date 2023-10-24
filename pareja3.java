@@ -41,8 +41,14 @@ public class Proyecto{
         this.codigo = codigo;
     }
 
-    public toString{
+    public toString(){
         return "Nombre: " + nombre + " descripción: " + descripcion;
+    }
+
+    public void informacionCompleta() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Descripción: " + descripcion);
+        System.out.println("Código: " + codigo);
     }
 
 }

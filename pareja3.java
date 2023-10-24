@@ -1,8 +1,8 @@
 public class Proyecto{
 
-    public String nombre;
-    public String descripcion;
-    public int codigo;
+    public String nombre = "Proyecto 3";
+    public String descripcion = "Pareja 3";
+    public int codigon = 3;
 
     constructor(nombre, descripcion, codigo){
         super();
@@ -40,4 +40,9 @@ public class Proyecto{
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
+
+    public toString{
+        return "Nombre: " + nombre + " descripción: " + descripcion;
+    }
+
 }

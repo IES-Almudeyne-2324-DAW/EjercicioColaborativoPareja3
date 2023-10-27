@@ -2,7 +2,19 @@ public class Proyecto{
 
     public String nombre = "Proyecto 3";
     public String descripcion = "Pareja 3";
-    public int codigon = 3;
+    public String user = "admin";
+    public String password = "root";
+    public int codigo = 3;
+
+    constructor(nombre, codigo){
+        super();
+    }
+
+    constructor(user, password){
+        super();
+        this.user=user;
+        this.password=password;
+    }
 
     constructor(nombre, descripcion, codigo){
         super();
@@ -49,6 +61,11 @@ public class Proyecto{
         System.out.println("Nombre: " + nombre);
         System.out.println("Descripción: " + descripcion);
         System.out.println("Código: " + codigo);
+    }
+
+    public void informacionUsiario() {
+        System.out.println("Usuario: " + user);
+        System.out.println("Contraseña: " + password);
     }
 
 }
